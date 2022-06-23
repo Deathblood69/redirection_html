@@ -1,0 +1,51 @@
+body {
+  min-height: 100vh;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.green, .green:hover {
+  color: #fff !important;
+  background-color: #4CAF50 !important;
+}
+
+.container {
+  padding: 0.01em 16px;
+}
+
+.card {
+  float: left;
+  overflow: hidden;
+  height: 500px;
+  width: 300px;
+  margin: 1%;
+  padding: 1%;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+#menu {
+  height: 120px;
+}
+
+#main {
+  height: 100%;
+  padding: 5%;
+}
